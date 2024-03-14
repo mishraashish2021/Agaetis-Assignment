@@ -30,8 +30,8 @@ This project provides a weather forecast application using Laravel and the OpenW
 
 ## API Key
 The project utilizes the OpenWeatherMap API to fetch weather data. To use the API, you need to obtain an API key from the OpenWeatherMap website (https://openweathermap.org/api) and configure it in the `.env` file under the `OPENWEATHERMAP_API_KEY` variable or directy use api_key
-apiKey = 'c05d4bbe3e8895495a8c42a093bbef18';
-apiUrl = "https://api.openweathermap.org/data/2.5/forecast?q=$location&appid=$apiKey&units=metric&cnt=7";
+- apiKey = 'c05d4bbe3e8895495a8c42a093bbef18';
+- apiUrl = "https://api.openweathermap.org/data/2.5/forecast?q=$location&appid=$apiKey&units=metric&cnt=7";
 
 
 ## License
